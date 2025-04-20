@@ -33,7 +33,7 @@ func TestGroupAnagrams(t *testing.T) {
 			},
 		},
 		{
-			name:    "one group with three anagrams, three groups with two anagrams each, one with only an element",
+			name:    "one group with one anagram, one groups with two anagrams, one group with three anagrams",
 			strings: []string{"eat", "tea", "tan", "ate", "nat", "bat"},
 			assert: func(t *testing.T, result [][]string) {
 				for i := range result {
